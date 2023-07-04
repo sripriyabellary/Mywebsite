@@ -64,17 +64,6 @@ ul
     opacity: 1;
     animation: slideSection 1s ease;
 }
-/* @keyframes slideSection
-{
-    0%
-    {
-        transform: translateY(-100%);
-    }
-    100%
-    {
-        transform: translateY(0%);
-    }
-} */
 .hidden
 {
     display: none !important;
@@ -147,7 +136,7 @@ ul
     display: inline-block;
     white-space: nowrap;
     border: none;
-    background-color: #000000;
+    background-color: black;
     transition: all 0.3s ease;
 }
 .btn:hover
@@ -195,6 +184,7 @@ ul
 {
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
+    color: #ec1839;
 }
 .aside .logo a::before
 {
@@ -228,7 +218,7 @@ ul
     left: 300px;
     top: 20px;
     border-radius: 5px;
-    background: var(--bg-black-100);
+    background-color: black;
     display: none;
     align-items: center;
     justify-content: center;
@@ -251,7 +241,7 @@ ul
     content: '';
     height: 2px;
     width: 18px;
-    background: var(--skin-color);
+    background: white;
     position: absolute;
     top: -6px;
     left: 0;
@@ -266,7 +256,7 @@ ul
     content: '';
     height: 2px;
     width: 18px;
-    background: var(--skin-color);
+    background: white;
     position: absolute;
     top: 6px;
     left: 0;
@@ -296,7 +286,7 @@ ul
 }
 .aside .nav li a.active
 {
-    color: var(--skin-color);
+    color: #ec1839;
 }
 .aside .nav li a i
 {
@@ -322,10 +312,10 @@ h3.hello
 h3.hello span
 {
     /* font-family: 'Poppins', sans-serif; */
-    /* font-family: cursive; */
+    font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--skin-color);
+    color: black;
 }
 h3.my-profession
 {
@@ -364,8 +354,8 @@ h3.my-profession
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10px solid var(#000000);
-    border-left: 10px solid var(#000000);
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
 }
@@ -382,7 +372,7 @@ h3.my-profession
 
 }
 .home__icon_cont i {
-    color: var(#000000);
+    color: black;
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -408,7 +398,7 @@ h3.my-profession
 }
 .about .about-content .about-text h3 span
 {
-    color: var(--skin-color);
+    color: black;
 }
 .about .about-content .about-text p
 {
@@ -772,19 +762,19 @@ h3.my-profession
 .contact .contact-info-item .icon
 {
     display: inline-block;
-    color: var(--skin-color);
+    color: black;
     font-size: 25px;
 }
 .contact .contact-info-item .icon .fa
 {
     font-size: 25px;
-    color: var(--skin-color);
+    color: black;
 }
 .contact .contact-info-item h4
 {
     font-size: 16px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: black;
     text-transform: capitalize;
     margin: 15px 0 5px;
 }
@@ -792,7 +782,7 @@ h3.my-profession
 {
     font-size: 14px;
     line-height: 25px;
-    color: var(--text-black-700);
+    color: black;
     font-weight: 400;
 }
 .contact .contact-form
@@ -1049,11 +1039,3 @@ h3.my-profession
         height: 160px;
     }
 }
-
-
-
-/* title : 38px
-content : 28px
-subheading : 32px */
-
-/* text align justify in project description */
