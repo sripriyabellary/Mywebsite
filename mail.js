@@ -16,7 +16,7 @@ if(nam_txt.value === "" || email_txt.value === "" || subject_txt.value === "" ||
   return alert("Please Fill Complete Details!!")
 }
 
-emailjs.send('service_silc30o', 'template_jf7yx97', temp, "Udpqt-1n9H9x_pJ4I")
+emailjs.send('service_silc30o', 'template_jf7yx97', temp, "W7tFt2pflHcS3zkE_")
 .then((res) => {
   if(res.status == 200) {
     success()
