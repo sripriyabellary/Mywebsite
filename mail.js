@@ -26,6 +26,7 @@ emailjs.send('service_silc30o', 'template_jf7yx97', temp, "W7tFt2pflHcS3zkE_")
 })
 
 
+  
 nam_txt.value = ""
 email_txt.value = ""
 subject_txt.value = ""
